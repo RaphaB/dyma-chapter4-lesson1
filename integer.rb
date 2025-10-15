@@ -1,15 +1,15 @@
-puts "Création d'un entier"
-puts Integer(42)
-puts Integer("42")
-puts Integer(42.42)
+# Création d'un entier
+Integer(42)
+Integer("42")
+Integer(42.42)
 
-puts "\nUtilisation de la séparation des chiffres"
-puts 123456789
-puts 123_456_789
+# Utilisation de la séparation des chiffres
+123456789
+123_456_789
 
-puts "\nUtilisation des notations"
-puts 10
-puts 0b10
-puts 0o10
-puts 0x10
-puts 0xFF
+# Utilisation des notations
+10
+0b10
+0o10
+0x10
+0xFF
